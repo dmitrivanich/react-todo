@@ -1,0 +1,21 @@
+.textarea{
+    width: 100%;
+    min-height: 5vh;
+    height: auto;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    line-height: 3ch;
+
+    &.light{
+        color:rgb(117, 117, 117);
+        border-color: rgb(226, 226, 226);
+    }
+    &.dark {
+        color: rgb(96, 96, 96);
+        border-color: rgb(69, 69, 69);
+    }
+}
+//maxH="60vh" minH={options?.textAreaHeight || "5vh"} _focus={{minH:"20vh"}}
